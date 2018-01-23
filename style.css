@@ -1,0 +1,242 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*/////////////////////////////////////////////////////////////////*/
+						/* VERSSION MOBILE */
+/*////////////////////////////////////////////////////////////////*/
+
+h1 {
+	font-size: 150px;
+	margin-top: 55vh;
+	text-align: center;
+	color: black;
+}
+
+h2 {
+	font-size: 100px;
+	text-align: center;
+	color: black;
+}
+
+h3 {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+h4 {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	color: white;
+}
+
+.img_background {
+	border: 3px green solid;
+	top: 0;
+	position: fixed;
+	background-image: url("img/img_background.jpg");
+	background-repeat: no-repeat;
+	background-position-x: -600px;
+	background-size: cover;
+	z-index: -10;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+/*-------------------------- Hero ---------------------------------*/
+.hero {
+	border: 3px blue solid;
+	margin-bottom: 8vh;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	background-image: url("img/karaoke_hero.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+nav {
+	border: 2px red solid;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+}
+
+nav p {	
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 50px;
+}
+
+nav span {
+	border: 2px green solid;
+	margin-right: 30px;
+	font-size: 120px;
+}
+
+.buttons {
+	border: 1px black solid;
+	border-radius: 50px;
+	font-size: 40px;
+	background-color: pink;
+	color: white;
+	padding: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+/*------- Choisisez votre catégorie / Choisisez votre play list --------*/
+.categorie, .play_list {
+	border: 2px yellow solid;
+	text-align: center;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 8vh;
+	width: 96%;
+	height: 88vh;
+}
+
+.categorie ul, .play_list ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.categorie ul li, .play_list ul li {
+	border: 1px blue solid;
+	width: 45%;
+	height: 25vh;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.categorie ul li p, .play_list ul li p {
+	font-size: 33px;
+	color: white;
+	line-height: 10px;
+}
+
+.img_categorie, .img_play_list {
+	border: 1px red solid;
+	width: 100%;
+	height: 80%;
+}
+
+
+
+
+
+
+
+
+
+/*---------------- Visitez notre établissement -----------------------*/
+.visitez_etablissement {
+	border: 2px yellow solid;
+	width: 96%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 8vh;
+}
+
+.visitez_etablissement p {
+	color: white;
+}
+
+.img_etablissement {
+	border: 2px green solid;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	width: 100%;
+	height: 600px;
+	background-image: url("img/bar.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+/*---------------- Contactez nous -----------------------*/
+.contact {
+	width: 96%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 8vh;
+}
+
+.contact p {
+	margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+/*---------------- Footer -----------------------*/
+footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+    background-image: linear-gradient(to bottom, rgba(183, 125, 207, 0.5), black);
+}
+
+footer a {
+	color: white;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
