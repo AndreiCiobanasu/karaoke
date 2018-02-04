@@ -3,21 +3,40 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Karaoke</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<!--$$$$$$$$$$$$$$$$$$$$$$$  HERO $$$$$$$$$$$$$$$$$$$$$$$$$$$-->
 		<section class="hero">
-			<nav>
-				<p>LOGO</p>
-				<span>+</span>
-			</nav>
-
-			<h1>TITRE</h1>
-			<h2>SOUS TITRE</h2>
-
-			<a class="buttons" href="">Choisisez votre catégorie</a>
+			<div class="filtre_hero">
+				<nav>
+					<a href="http://localhost:8888/karaoke/"><p>LOGO</p></a>
+					<span id="menu_open">
+						<div></div>
+						<div></div>
+						<div></div>
+					</span>
+				</nav>
+	
+				<h1>TITRE</h1>
+				<h2>SOUS TITRE</h2>
+	
+				<a class="buttons" href="#categories">Choisisez votre catégorie</a>
+			</div>
 		</section>
+
+		<section id="section_menu"  class="animated fadeInDown">
+			<a id="menu_close">+</a>
+			<a class="home_button" href="http://localhost:8888/karaoke/"><p>HOME</p></a>
+			<a class="categories_button" href="#categories"><p>CATEGORIES</p></a>
+			<a class="playlists_button" href="#playlists"><p>PLAYLISTS</p></a>
+			<a class="etablissement_button" href="#etablissement"><p>ETABLISSEMENT</p></a>
+			<a class="contact_button" href="#contact"><p>CONTACT</p></a>
+		</section>
+		
 
 
 
@@ -27,9 +46,11 @@
 
 
 		<!--$$$$$$$$$$$$$$$  Choisisez votre catégorie $$$$$$$$$$$$$$$$$$$$$-->
-		<section class="img_background"></section>
+		<section class="img_background">
+			<div class="filtre_img_background"></div>
+		</section>
 
-		<h3>Choisisez votre catégorie</h3>
+		<h3 id="categories">Choisisez votre catégorie</h3>
 		<section class="categorie">
 			<ul>
 				<li>
@@ -60,7 +81,7 @@
 				</li>
 			</ul>
 			
-			<a class="buttons" href="">VOIR / AJOUTER PLUS DE CATÉGORIES</a>
+			<a class="buttons" href="categories.html">VOIR / AJOUTER PLUS DE CATÉGORIES</a>
 		</section>
 
 
@@ -71,7 +92,7 @@
 
 
 		<!--$$$$$$$$$$$$$$$  Choisisez votre catégorie $$$$$$$$$$$$$$$$$$$$$-->
-		<h3>Choisisez une play list</h3>
+		<h3 id="playlists">Choisisez une playlist</h3>
 		<section class="play_list">
 			<ul>
 				<li>
@@ -102,7 +123,7 @@
 				</li>
 			</ul>
 			
-			<a class="buttons" href="">VOIR / AJOUTER PLUS DE PLAY LISTS</a>
+			<a class="buttons" href="">VOIR / AJOUTER PLUS DE PLAYLISTS</a>
 		</section>
 
 
@@ -113,7 +134,7 @@
 
 
 		<!--$$$$$$$$$$$$$$$  Visitez notre établisement $$$$$$$$$$$$$$$$$$$$$-->
-		<h3>Visitez notre établisement</h1>
+		<h3 id="etablissement">Visitez notre établisement</h1>
 
 		<section class="visitez_etablissement">
 			<h4>Déscription</h4>
@@ -135,7 +156,7 @@
 
 
 		<!--$$$$$$$$$$$$$$$$$$$$  Contactez nous $$$$$$$$$$$$$$$$$$$$$-->
-		<h3>Contactez nous</h3>
+		<h3 id="contact">Contactez nous</h3>
 
 		<section class="contact">
 			<p>
@@ -160,6 +181,21 @@
 
 			<p> © All rights reserved</p>
 		</footer>
+		
+		<!-- link Jquery.js-->
+		<script type="text/javascript" src="librairies/jquery-3.3.1.js"></script>
+
+		<!-- link script.js-->
+		<script src="js/script.js"></script>
+
+		<!-- WOW.js-->
+		<script src="librairies/WOW.min.js"></script>
+              <script>
+              new WOW().init();
+			  </script>
+			  
+		<!-- slow scroll -->
+		<script src="js/javascript.js"></script>
 
 	</body>
 </html>

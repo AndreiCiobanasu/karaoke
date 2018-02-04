@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        
+        <title>Catégories</title>
+
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <section class="img_background">
+			<div class="filtre_img_background"></div>
+        </section>
+
+        <nav>
+            <a href="http://localhost:8888/karaoke/"><p class="nav_p">LOGO</p></a>
+            
+
+            <form action="#" method="post">
+                    <input class="recherche" type="text">
+                    <input class="chercher" type="submit" value="Chercher">
+                </form>
+
+            <span class="nav_span" id="menu_open">
+                <div></div>
+                <div></div>
+                <div></div>
+            </span>
+        </nav>
+
+		<section id="section_menu"  class="animated fadeInDown">
+			<a id="menu_close">+</a>
+			<a class="home_button" href="http://localhost:8888/karaoke/"><p>HOME</p></a>
+			<a class="categories_button" href="http://localhost:8888/karaoke/#categories"><p>CATEGORIES</p></a>
+			<a class="playlists_button" href="http://localhost:8888/karaoke/#playlists"><p>PLAYLISTS</p></a>
+			<a class="etablissement_button" href="http://localhost:8888/karaoke/#etablissement"><p>ETABLISSEMENT</p></a>
+			<a class="contact_button" href="http://localhost:8888/karaoke/#contact"><p>CONTACT</p></a>
+		</section>
+
+        <h3 class="h3_autres_pages">Choisisez votre catégorie</h3>
+
+        <section class="tableau_categories">
+
+			<ul>
+				<li>
+					<img class="img_categorie" src="img/annees80.jpeg" alt="">
+					<p>Années 80</p>
+				</li>
+				<li>
+					<img class="img_categorie" src="img/musique_francise.jpeg" alt="">
+					<p>Musique Française</p>
+				</li>
+
+				<li>
+					<img class="img_categorie" src="img/jazz.jpeg" alt="">
+					<p>Jazz</p>
+				</li>
+				<li>
+					<img class="img_categorie" src="img/rap.jpg" alt="">
+					<p>Rap</p>
+				</li>
+
+				<li>
+					<img class="img_categorie" src="img/pop.jpeg" alt="">
+					<p>Pop</p>
+				</li>
+				<li>
+					<img class="img_categorie" src="img/rock.jpg" alt="">
+					<p>Rock</p>
+				</li>
+			</ul>
+        </section>
+
+
+
+
+    </body>	<!--$$$$$$$$$$$$$$$$$$$$  Footer $$$$$$$$$$$$$$$$$$$$$-->
+
+
+
+
+    <footer>
+        <a href="">FACEBOOK</a>
+        <a href="">TWITTER</a>
+        <a href="">INSTAGRAM</a>
+
+        <p> © All rights reserved</p>
+    </footer>
+    
+    <!-- link Jquery.js-->
+    <script type="text/javascript" src="librairies/jquery-3.3.1.js"></script>
+
+    <!-- link script.js-->
+    <script src="js/script.js"></script>
+
+    <!-- WOW.js-->
+    <script src="librairies/WOW.min.js"></script>
+          <script>
+          new WOW().init();
+          </script>
+          
+    <!-- slow scroll -->
+    <script src="js/javascript.js"></script>
+</html>
