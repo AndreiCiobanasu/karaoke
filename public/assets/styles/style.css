@@ -12,15 +12,15 @@ h1 {
 	font-size: 50px;
 	margin-top: 50vh;
 	text-align: center;
-	color: white;
+	color: #3b2739;
 
 
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
-	color: white;
+	color: #3b2739;
 
 }
 
@@ -49,7 +49,8 @@ p {
 	border: 3px green solid;
 	top: 0;
 	position: fixed;
-	background-image: url("../img/img_background.jpg");
+	background-image: url("../img/img_background2.jpg");
+
 	background-repeat: no-repeat;
 
 	background-size: cover;
@@ -66,7 +67,7 @@ p {
 	width: 100vw;
 	height: 100vh;
 	text-align: center;
-	background-image: url("../img/karaoke_hero.jpg");
+	background-image: url("../img/backgroundimg.png");
 
 	background-repeat: no-repeat;
 	background-position: center;
