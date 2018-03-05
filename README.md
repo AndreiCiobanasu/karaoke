@@ -8,17 +8,17 @@ aux clients du bar à karaoke pour leur offrir l'occasion de chanter
 leur chansons préférés et les faire partager avec leurs amis.
 
 ## Les membres du projet: 
-Andrei Ciobanasu
-Jonathan Caron
-Tan Phan
-Laurent Hulstaert
+- Andrei Ciobanasu
+- Jonathan Caron
+- Tan Phan
+- Laurent Hulstaert
 
 ## Technos
-Angular 5
-IONIC 3
-html
-css
-node.js
+- Angular 5
+- IONIC 3
+- html
+- css
+- node.js
 
 ## Situation
 En cour de progression, on a commencé par la version mobile de l'application. 
